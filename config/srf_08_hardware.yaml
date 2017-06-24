@@ -1,0 +1,12 @@
+# SRF_08 Rangefinder Parameters
+
+srf_08_rangefinder_node:
+   # 0x70 (112) standard address
+   device_addr : 112
+   sample_rate : 5
+   min_range : 0.05
+   max_range : 0.5
+   # Radiation Type: 0 - Ultrasonic, 1 - Infrared
+   # defined in sensor_msgs/Range.msg
+   radiation_type : 0
+   fov : 0.3

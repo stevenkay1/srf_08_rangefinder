@@ -1,0 +1,8 @@
+<launch>
+	<rosparam file="$(find srf_08_rangefinder)/config/srf_08_hardware.yaml" command="load"/>
+
+	<node name="srf_08_rangefinder_node" pkg="srf_08_rangefinder" 		
+			type="srf_08_rangefinder_node.py" output="screen">
+
+	</node>
+</launch>
